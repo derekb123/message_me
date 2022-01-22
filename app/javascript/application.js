@@ -3,3 +3,7 @@ import "@hotwired/turbo-rails"
 import "controllers"
 import '@doabit/semantic-ui-sass'
 import '@doabit/semantic-ui-sass/src/scss/semantic-ui.scss'
+
+$(document).on('turbolinks:load', function() {
+    $('.ui.dropdown').dropdown();
+});
