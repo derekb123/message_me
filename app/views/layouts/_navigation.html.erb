@@ -1,15 +1,17 @@
-<a class="item">
-      Chatroom
-    </a>
+    <div class="item">
+      <%= link_to "Chatroom", root_path %>
+    </div>
     <a class="item">
       Messages
     </a>
     <div class="right menu">
       <div class="item">
-          <div class="ui primary button">Log In</div>
+          <div class="ui inverted button">
+            <%= link_to "Log In", login_path %>
+          </div>
       </div>
       <div class="item">
-          <div class="ui primary button">Log Out</div>
+          <div class="ui inverted button">Log Out</div>
       </div>
       <div class="item">
           <div class="ui primary button">Sign Up</div>
