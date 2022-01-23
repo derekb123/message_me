@@ -1,7 +1,12 @@
 class SessionsController < ApplicationController
 
-    def new 
-        # @session = Session.new
+    def current_user        
+    end
+
+    def logged_in?
+    end
+
+    def require_user
     end
 
 end
